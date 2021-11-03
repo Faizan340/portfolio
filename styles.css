@@ -77,7 +77,13 @@ a{
     object-fit: contain;
 }
 .skill-heading{
+    font-size: 2.0rem;
+    font-weight: 600;
     color:#ffffff;
+}
+.project-heading{
+    font-size: 2.0rem;
+    font-weight: 600;
 }
 .s-box-icon{
     margin-right: 12px;
@@ -104,13 +110,18 @@ a{
 .fa-java{
     color: #99b2e7;
 }
+.icon{
+    left:1%;
+    height: 50px;
+    width: 80px;
+}
 .s-box-text h3{
     color:#ffffff;
 }
 #projects{
     position: absolute;
     top: 100%;
-    right: 14%;
+    right: 5%;
 }
 .project-heading{
     color:#ffffff;
@@ -118,11 +129,19 @@ a{
 .link-text{
     color:#ffffff;
 }
+.description{
+    color: #8a94a7c0;
+}
+.description:hover{
+    color: #0c2249c0;
+}
+.tech-description{
+    color: #8a94a7c0;
+}
 @media(max-width:1200px){
-    
-    .model{
+     .model{
         width:400px;
-        height: 400px;
+        height :400px;
         right: 5%;
         transform: translate(-5%,-50%);
     }
