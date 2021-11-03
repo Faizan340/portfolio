@@ -36,10 +36,11 @@ a{
     position: absolute;
     width:130%;
     height: 100vh;
-    left: -20%;
+    left: 20%;
     top: -23%;
     transform: rotate(-10deg);
     background: linear-gradient(45deg, rgb(19,19,19) -10%, #141516);
+    z-index: -1;
 }
 .main-text{
     position: absolute;
@@ -116,4 +117,17 @@ a{
 }
 .link-text{
     color:#ffffff;
+}
+@media(max-width:1200px){
+    
+    .model{
+        width:400px;
+        height: 400px;
+        right: 5%;
+        transform: translate(-5%,-50%);
+    }
+    .main-text{
+        left: 10%;
+        transform: translate(-10%,-50%);
+    }
 }
