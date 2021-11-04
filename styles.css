@@ -121,7 +121,7 @@ a{
 #projects{
     position: absolute;
     top: 100%;
-    right: 5%;
+    right: 2%;
 }
 .project-heading{
     color:#ffffff;
@@ -149,4 +149,30 @@ a{
         left: 10%;
         transform: translate(-10%,-50%);
     }
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social a{
+    width:75px;
+    height: 75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #292b3252;
+    margin: 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.footer-social a:hover{
+    background-color: #2993f7;
+    transition: all ease 0.5s;
+}
+.copyright{
+    text-align: center;
+    color:white;
 }
